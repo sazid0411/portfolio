@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(0,0,33); */
+    /* color: white; */
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: sticky;
+}
+
+header hr {
+    border: 0;
+    background: blueviolet;
+    height: 1px;
+    margin: 0px 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    /* background-color: rgb(0, 0,50); */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+nav .c-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .c-icon .icc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.fa-brands {
+    font-size: 1.5rem;
+}
+
+.left {
+    font-size: 2rem;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+
+.first-section>div {
+    width: 30%;
+
+}
+
+.left-section {
+    font-size: 2.2rem;
+
+
+}
+
+.left-section p {
+    font-size: 1rem;
+    padding: 20px 0;
+    color: gray;
+}
+
+.first-section img {
+    height: 400px;
+}
+
+.purple {
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: "Clicker Script", cursive;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.second-sec {
+
+    width: 80vw;
+    height: 60vh;
+    margin: 0 0px 0 150px;
+}
+
+.second-sec .stacks {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.second-sec .stacks .stack {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.second-sec .stacks .stack .image {
+    height: 100px;
+    width: 100px;
+}
+
+
+.hr2 {
+    margin-bottom: 0;
+}
+
+footer {
+    height: 15vh;
+    padding-bottom: 20px;
+}
+
+footer p {
+    text-align: end;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* About me  */
+
+.education-section {
+
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.education-section h1 {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.education-card {
+    display: flex;
+    margin-top: 40px;
+    height: 60px;
+    width: 600px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.education-card .left-edu-div {
+    text-align: start;
+    padding: 3px;
+}
+
+.education-card .left-edu-div .title {
+    text-align: start;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.education-card .left-edu-div .vu {
+    font-size: .9rem;
+}
+
+.education-card .right-edu-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education-card .right-edu-div .status {
+    background-color: rebeccapurple;
+    padding: 4px;
+    top: 3px;
+    border-radius: 10px;
+}
+
+.education-card .right-edu-div .du {
+    font-size: .8rem;
+}
+
+.education-section hr {
+    margin: 0;
+    height: 1px;
+}
+
+.work-section hr {
+    margin: 0;
+    height: 1px;
+}
+
+.work-section h1 {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.work-section {
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+hr {
+    border: 0;
+    background: blueviolet;
+    height: 1px;
+    margin: 40px 100px;
+}
+
+/* projects */
+
+.project-card {
+    margin-top: 60px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-card .card {
+    height: 60vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-card .card .card-image {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.project-card .card .card-image img {
+    height: 170px;
+    object-fit: cover;
+}
+
+.project-card .card .card-detail {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card .card-detail h2 {
+    font-size: 1.5rem;
+    margin: 5px 10px;
+}
+
+.project-card .card .card-detail p {
+    font-size: .8rem;
+    margin: 5px 10px;
+}
+
+.project-card .card .card-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project-card .card .card-link a {
+    text-decoration: none;
+}
+
+.project-card .card .card-link .browser-link {
+    margin: 0 15px;
+    font-size: .8rem;
+}
+
+.project-card .card .card-link .code-link {
+    margin: 0 15px;
+    font-size: .8rem;
+}
+
+.project-card .card .card-link .code-link .aa {
+    font-size: .8rem;
+}
+
+/* contact */
+
+.Contact-section{
+    height: 80vh;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+}
+.Contact-section .email{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Contact-section .from{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input{
+    border: 2px solid blueviolet;
+    width: 400px;
+    border-radius: 10px;
+    padding: 12px;
+}
+textarea{
+    border: 2px solid blueviolet;
+    width: 400px;
+    padding: 12px;border-radius: 10px;
+    height: 100px;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    width: 420px;
+    padding: 12px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+/* .linear{
+    height: 89.5vh;
+    background: linear-gradient(to top, #d7a6f4 0%, #f7b4e1 100%);
+} */
