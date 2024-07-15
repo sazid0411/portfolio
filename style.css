@@ -393,6 +393,23 @@ button{
     color: white;
     cursor: pointer;
 }
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+   display: none;
+    font-size: 600;
+    font-size: 3rem;
+}
+
+@media(max-width : 768px) {
+    header, main, footer { display: none; }
+    .screen {
+        display: flex;
+        visibility: visible; /* Change visibility to visible */
+    }
+}
 /* .linear{
     height: 89.5vh;
     background: linear-gradient(to top, #d7a6f4 0%, #f7b4e1 100%);
