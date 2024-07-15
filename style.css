@@ -11,6 +11,12 @@ body {
     /* color: white; */
     font-family: "Poppins", sans-serif;
 }
+.float-div{
+    visibility: hidden;
+}
+.fa-bars{
+    visibility: hidden;
+}
 
 header {
     position: sticky;
@@ -410,7 +416,3 @@ button{
         visibility: visible; /* Change visibility to visible */
     }
 }
-/* .linear{
-    height: 89.5vh;
-    background: linear-gradient(to top, #d7a6f4 0%, #f7b4e1 100%);
-} */
